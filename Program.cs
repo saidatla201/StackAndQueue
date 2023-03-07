@@ -18,6 +18,15 @@ namespace StackandQueue
             stack.Pop();
             stack.Peek();
 
+            Console.WriteLine("\nQueue");
+
+            Queue queue = new Queue();
+            queue.Enqueue(70);
+            queue.Enqueue(30);
+            queue.Enqueue(56);
+            queue.Display();
+            
+
             Console.ReadLine();
         }
         }
